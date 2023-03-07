@@ -5,6 +5,7 @@ import java.util.concurrent.*;
 public class FutrueThreadPoolDemo
 {
     public static void main(String[] args) throws ExecutionException, InterruptedException {
+//        hot-fix test
 //        m1();
         long startTime = System.currentTimeMillis();
         ExecutorService executorService = Executors.newFixedThreadPool(3);
